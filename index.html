@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-box">
+        <div class="icon-container">
+          <ion-icon class="icon" name="cart-outline"></ion-icon>
+        </div>
+        <form>
+          <div class="textbox">
+            <ion-icon class="user" name="person-outline"></ion-icon>
+            <input
+              class="username"
+              type="text"
+              placeholder="Username"
+              name="username"
+              required
+            />
+          </div>
+          <div class="textbox">
+            <ion-icon class="psw" name="lock-closed-outline"></ion-icon>
+            <input
+              class="password"
+              type="password"
+              placeholder="Password"
+              name="password"
+              required
+            />
+          </div>
+        </form>
+        <div class="log-psw--container">
+          <input type="submit" class="btn" value="Login" />
+          <a class="forgot-psw" href="#">Forgot Password?</a>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
